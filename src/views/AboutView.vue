@@ -1,6 +1,6 @@
 <template>
   <div class="px-3 md:px-0">
-    <h2 class="text-3xl font-bold mb-2">About DJ Elder</h2>
+    <h2 class="text-lg md:text-3xl font-bold mb-2">About DJ Elder</h2>
     <div class="space-y-5 text-lg">
       <p>
         DJ Elder is a veteran of the Christian hip hop scene. For this project,
@@ -12,7 +12,7 @@
         The beats were made with the legendary E-MU SP-1200, MPC60 and the Isla
         S2400.
       </p>
-      <h2 class="text-2xl font-bold">Contact</h2>
+      <h2 class="text-lg md:text-2xl font-bold">Contact</h2>
       <p>
         <span class="font-bold">email: </span>
         <a
