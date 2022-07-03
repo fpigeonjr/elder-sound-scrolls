@@ -3,72 +3,79 @@ import Aplayer from "vue-aplayer"
 import albumCover from "../assets/album-cover.jpg"
 const album = [
   {
-    title: "Halleluyah Remix",
+    title: "Sivion – I'm Good Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Halleluyah Remix.mp3",
+    src: "/Sivion ImGoodRemix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "I'm Good Remix",
+    title: "Cross Movement – House of Reps Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Im Good Remix.mp3",
+    src: "/Cross Movement HouseofReps Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "In the Mix Remix",
+    title: "Shai Linne feat. TImothy Brindle – Mercy and Grace Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/In the Mix Remix.mp3",
+    src: "/Shai Linne Brindle MercyandGrace Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Meditate To Gem Remix",
+    title: "Orion the Artist feat. MZ – Meditate to Gem Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Meditate To Gem Remix MASTER.mp3",
+    src: "/Orion MZ MeditateToGem Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Mercy and Grace Remix",
+    title: "Absent Minded – Two Guitars",
     artist: "The Elder Sounds Scrolls",
-    src: "/Mercy and Grace Remix.mp3",
+    src: "/Absent Minded TwoGuitars.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Peculiar Creatures Remix",
+    title: "Die Rek – HalleluYah Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Peculiar Creatures Remix.mp3",
+    src: "/DieRek HalleluYah Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Rise and Fall Remix",
+    title: "Mr. Pickney – Peculiar Creatures Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Rise and Fall Remix.mp3",
+    src: "/Mr Pickney Peculiar People Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Roul Rich Remix",
+    title: "Jeremiah Dirt – Times So Hard Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Roul Rich Remix.mp3",
+    src: "/JeremiahDirt Timessohard Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Times so Hard Remix",
+    title: "D Rock – In the Mix Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Times so Hard Remix.mp3",
+    src: "/DRock IntheMix .mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   },
   {
-    title: "Two Guitars Remix",
+    title: "James Gardin – Soul Rich Remix",
     artist: "The Elder Sounds Scrolls",
-    src: "/Two Guitars.mp3",
+    src: "/James Gardin SoulRichRemix.mp3",
+    pic: "/album-cover.jpg",
+    theme: "#e5b24b"
+  },
+  {
+    title: "La Symphony – San Diego Remix",
+    artist: "The Elder Sounds Scrolls",
+    src: "/La Symphony SanDiego Remix.mp3",
     pic: "/album-cover.jpg",
     theme: "#e5b24b"
   }
@@ -80,7 +87,7 @@ const album = [
     <img :src="albumCover" alt="album cover" class="rounded-md" />
     <Aplayer
       :music="{
-        title: 'Intro',
+        title: 'Composer Producer DJ Elder (Skit)',
         artist: 'The Elder Sounds Scrolls',
         src: '/Composer Producer DJ Elder.mp3',
         pic: '/album-cover.jpg',
