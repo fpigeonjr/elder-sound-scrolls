@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <div id="app" class="">
+  <div id="app">
     <header class="container mx-auto max-w-screen-md">
       <div class="mt-4">
         <router-link to="/" exact>
@@ -9,14 +7,14 @@
             The Elder Sound Scrolls
           </h1>
         </router-link>
-        <nav
-          class="py-3 md:py-1 pl-3 mb-4 border-t-2 border-b-2 border-gray-200 max-w-screen-lg"
-        >
-          <router-link to="/" exact>Home</router-link>
-          <router-link to="/about" class="ml-10 md:ml-4">About</router-link>
-        </nav>
       </div>
     </header>
+    <nav class="py-3 pl-5 md:py-1 mb-4 border-t-2 border-b-2 border-gray-200">
+      <div class="container mx-auto max-w-screen-md">
+        <router-link to="/" exact>Home</router-link>
+        <router-link to="/about" class="ml-10 md:ml-4">About</router-link>
+      </div>
+    </nav>
     <main class="container mx-auto max-w-screen-md mb-24">
       <router-view />
     </main>
