@@ -24,7 +24,7 @@ const album = [
     theme: "#e5b24b"
   },
   {
-    title: "Orion the Artist feat. MZ – Meditate to Gem Remix",
+    title: "Orion TheArtist feat. MZ – Meditate to Gem Remix",
     artist: "The Elder Sounds Scrolls",
     src: "/Orion MZ MeditateToGem Remix.mp3",
     pic: "/album-cover.jpg",
