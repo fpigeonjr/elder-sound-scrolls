@@ -12,6 +12,7 @@
     <nav class="py-3 pl-5 md:py-1 mb-4 border-t-2 border-b-2 border-gray-200">
       <div class="container mx-auto max-w-screen-md">
         <router-link to="/" exact>Home</router-link>
+        <router-link to="/download" class="ml-10 md:ml-4">Download</router-link>
         <router-link to="/about" class="ml-10 md:ml-4">About</router-link>
       </div>
     </nav>
